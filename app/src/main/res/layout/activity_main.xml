@@ -8,8 +8,7 @@
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:text="Seja bem vindo"
-            android:background="@color/colorPrimary">
+            android:text="Seja bem vindo">
 
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="match_parent"
@@ -19,7 +18,7 @@
                     android:id="@+id/welcomeText"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Seja bem vindo"
+                    android:text="Seja bem-vindo"
                     android:textSize="18sp"
                     android:layout_margin="10dp"
                     android:textColor="@color/white"
@@ -57,9 +56,7 @@
 
                     <Button
                             android:id="@+id/consultar_click"
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:background="#C63F00"
+                            style="@style/mainactivity_button"
                             android:text="Teste de API"
                             android:layout_marginEnd="10dp"
                             android:onClick="abrirAtividadeReservas"
@@ -67,9 +64,9 @@
 
                     <Button
                             android:id="@+id/select_reserva"
+                            style="@style/mainactivity_button"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:background="#C63F00"
                             android:text="Reserva"
                             android:layout_marginEnd="10dp"
                             android:onClick="abrirAtividadeDocumentos"
@@ -77,8 +74,8 @@
 
                     <Button
                             android:layout_width="150dp"
+                            style="@style/mainactivity_button"
                             android:layout_height="150dp"
-                            android:background="#C63F00"
                             android:text="Editais"
                             android:layout_marginEnd="10dp"
                             android:onClick="abrirAtividadeEditais"
@@ -86,12 +83,13 @@
 
                     <Button
                             android:layout_width="150dp"
+                            style="@style/mainactivity_button"
                             android:layout_height="150dp"
-                            android:background="#C63F00"
                             android:text="Eventos"
                             android:layout_marginEnd="10dp"
                             android:onClick="abrirAtividadeEventoss"
                     />
+
 
                 </LinearLayout>
 
@@ -103,7 +101,7 @@
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="400dp">
+            android:layout_height="464dp">
 
     </androidx.cardview.widget.CardView>
 </LinearLayout>
